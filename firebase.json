@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "webapp",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/v1/sync",
+        "function": "sync"
+      }
+    ]
+  }
+}

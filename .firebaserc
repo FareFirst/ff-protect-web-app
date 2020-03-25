@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "default": "ff-protect-debug",
+    "debug": "ff-protect-debug",
+    "staging": "ff-protect-staging",
+    "production": "ff-protect"
+  },
+  "targets": {
+    "ff-protect-debug": {
+      "hosting": {
+        "webapp": [
+          "ff-protect-debug"
+        ]
+      }
+    },
+    "ff-protect-staging": {
+      "hosting": {
+        "webapp": [
+          "ff-protect-staging"
+        ]
+      }
+    },
+    "ff-protect": {
+      "hosting": {
+        "webapp": [
+          "ff-protect"
+        ]
+      }
+    }
+  }
+}
